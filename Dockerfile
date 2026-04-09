@@ -1,5 +1,5 @@
 # Use OpenJDK
-FROM openjdk:17-jdk-slim
+FROM openjdk:17-jdk
 
 # Copy the built JAR file
 ARG JAR_FILE=target/*.jar
